@@ -21,7 +21,9 @@ background-color: blue;}
    height: 100%;
 }
 */
-
+.buttons{
+  position: fixed;
+}
 .bottom{
   font-family: 'Abril fatface', sans-serif;
   font-size: 3em;

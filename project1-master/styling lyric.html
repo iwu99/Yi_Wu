@@ -26,9 +26,11 @@
 
 
   <!-- playAudio() is the JavaScript function that tells the browser to play your audio file. The onclick attribute tells the browser to run the playAudio() function when a user clicks the html element with the onclick attribute -->
+<div class="buttons">
   <button onclick="playAudio()" type="button">Play Audio</button>
   <!-- similar to playAudio() function, except it pauses the audio -->
   <button onclick="pauseAudio()" type="button" >Pause Audio</button>
+</div>
   <!-- onclick attribute works on other elements too, not just buttons. However, if it's a text element you wont see an arrow cursor. You can determine what type of arrow cursor shows up with the css cursor declaration -->
   <script>
   var audio = document.getElementById("Audio");
